@@ -16,3 +16,19 @@ commit file
 1、git add fileName
 2、git commit -m 'commit description'
 3、git push origin master
+
+
+show all branch:   git branch -a 
+switch between branch:   git checkout master/branchname
+
+       -a, --all
+           Tell the command to automatically stage files that have been modified and deleted, but new files you have not told git about are not
+           affected.
+
+commit :   git commit -a -m 'commit description'
+show log : git log -1
+merge branch to current branch:  git merge branchname
+
+open the conflict file, keep what you need after the merge,save it and execute the following:
+solve the conflict file:  git add conflictfile
+			  git commit -m 'commit description'
