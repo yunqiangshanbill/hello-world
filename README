@@ -32,3 +32,6 @@ merge branch to current branch:  git merge branchname
 open the conflict file, keep what you need after the merge,save it and execute the following:
 solve the conflict file:  git add conflictfile
 			  git commit -m 'commit description'
+
+
+just for testing
